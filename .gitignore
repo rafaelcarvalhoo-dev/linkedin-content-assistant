@@ -1,0 +1,43 @@
+# ============================================================
+# ROBÔ LINKEDIN CONTEÚDO V1
+# Arquivos locais que não devem ser enviados ao GitHub
+# ============================================================
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dados e histórico local
+dados/
+
+# Publicações geradas localmente
+posts/
+
+# Imagens locais
+imagens/
+IMAGENS IA/
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Arquivos de IDE/editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
